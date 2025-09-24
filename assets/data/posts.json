@@ -1,0 +1,32 @@
+{
+  "videos": [
+    {
+      "title": "...",
+      "date": "...  ",
+      "image": "assets/videos/poster1.jpg",
+      "url": "videos.html"
+    },
+    {
+      "title": "...",
+      "date": "...",
+      "image": "assets/videos/poster2.jpg",
+      "url": "videos.html"
+    }
+  ],
+  "photos": [
+    {
+      "title": "Neblina",
+      "date": "2025-09-18",
+      "image": "assets/fotos/foto1.JPG",
+      "url": "fotos.html"
+    }
+  ],
+  "essays": [
+    {
+      "title": "...",
+      "date": "...",
+      "image": "assets/ensayos/placeholder.jpg",
+      "url": "ensayos.html"
+    }
+  ]
+}
