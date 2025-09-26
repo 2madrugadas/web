@@ -1,0 +1,87 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 40px;
+  max-width: 1100px;
+  margin: 0 auto;
+  align-items: start;
+}
+
+.grid-item {
+  position: relative;
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+
+.grid-item img, .grid-item video {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+  opacity: 1;
+}
+
+.grid-item h3 {
+  font-family: '1942', system-ui, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-align: center;
+  transition: color 0.3s ease;
+  margin: 0;
+  opacity: 1;
+  color: #fff;
+}
+
+.grid-item .card-meta {
+  font-family: 'JMH Typewriter', monospace;
+  font-size: 0.9rem;
+  text-align: center;
+  color: #bbb;
+  transition: color 0.3s ease;
+  margin-top: 8px;
+  opacity: 1;
+}
+
+.grid-item::before {
+  content: '';
+  position: absolute;
+  top: -15px;
+  left: -15px;
+  right: -15px;
+  bottom: -15px;
+  background-color: #fff;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: -1;
+}
+
+@media (hover: hover) {
+  .grid-item:hover::before {
+    opacity: 1;
+  }
+  .grid-item:hover, .grid-item:hover h3, .grid-item:hover .card-meta {
+    color: #000;
+  }
+}
+
+.grid-item.touch-hover::before {
+  opacity: 1;
+}
+.grid-item.touch-hover, .grid-item.touch-hover h3, .grid-item.touch-hover .card-meta {
+  color: #000;
+}
+
+@media (max-width: 768px) {
+  .grid { gap: 30px; }
+  .grid-item h3 { font-size: 1.3rem; }
+}
+
+@media (max-width: 480px) {
+  .grid { grid-template-columns: 1fr; }
+  .grid-item h3 { font-size: 1.2rem; }
+  .grid-item, .grid-item h3, .grid-item:hover {
+    color: #fff;
+  }
+  .grid-item .card-meta { color: #bbb; }
+}

@@ -1,0 +1,12 @@
+.popup { display: none; position: fixed; inset: 0; background: rgba(0,0,0,.95); z-index: 1000; align-items: center; justify-content: center; }
+.popup-content { position: relative; max-width: 90%; max-height: 90vh; margin: 0 auto; }
+#popup-photo, #popup-video { opacity: 0; animation: fadeIn .35s ease-out .15s forwards; }
+#popup-photo { width: min(90vw, 1100px); height: auto; max-height: 80vh; object-fit: contain; }
+#popup-video { width: min(75vw, 900px); aspect-ratio: 16/9; height: auto; max-height: 65vh; object-fit: cover; }
+.photo-info, .video-info { margin-top: 20px; text-align: center; color: #ccc; font-family: 'JMH Typewriter', monospace; font-size: .9rem; opacity: 0; }
+.popup.show-info .photo-info, .popup.show-info .video-info { animation: fadeIn .35s ease-out .2s forwards; }
+.nav-buttons { position: absolute; top: 50%; width: 100%; display: flex; justify-content: space-between; padding: 0 20px; transform: translateY(-50%); }
+.nav-btn { background: rgba(255,255,255,.2); color: #fff; border: none; width: 40px; height: 40px; border-radius: 50%; font-size: 1.2rem; cursor: pointer; transition: background .3s ease; }
+.nav-btn:hover { background: rgba(255,255,255,.4); }
+.close-btn { position: absolute; top: 30px; right: 40px; font-size: 2rem; color: #fff; cursor: pointer; transition: opacity .3s ease; }
+.close-btn:hover { opacity: .8; }
