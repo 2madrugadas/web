@@ -1,0 +1,8 @@
+#videos-section h2, #photo-gallery-section h2, #essays-section h2 {
+  font-family: '1942', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 30px;
+  text-align: center;
+}
