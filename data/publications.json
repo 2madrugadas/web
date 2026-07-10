@@ -3,7 +3,13 @@
   "videos": [],
   "essays": [
     {
-      "id": "1783723704085",
+      "id": "1783723715737",
+      "title": "ejemplo",
+      "date": "2026-07-10",
+      "content": "ejemplo\n"
+    },
+    {
+      "id": "1783723710843",
       "title": "ejemplo",
       "date": "2026-07-10",
       "content": "ejemplo\n"
