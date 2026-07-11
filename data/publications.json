@@ -1,12 +1,5 @@
 {
   "photos": [],
   "videos": [],
-  "essays": [
-    {
-      "id": "1783749587393",
-      "title": "Subway: trabajo y madurez",
-      "date": "2026-07-11",
-      "content": "El desarrollo humano se divide en siete etapas primordiales: etapa prenatal, infancia, niñez, adolescencia, juventud, adultez y tercera edad. Al atravesar cada ciclo etario nos enfrentamos a diversos desafíos físicos, emocionales y sociales que, conforme va pasando el tiempo, van agravando su dificultad. A mi parecer, una de las etapas más importantes y difíciles de sobrellevar es la adolescencia. La adolescencia, del verbo latino adolescere, que significa crecer o desarrollarse, se compone de tres subetapas: la adolescencia temprana (10-13 años), la adolescencia media (14-16 años) y la adolescencia tardía (17-20 años).\nMi adolescencia temprana estuvo marcada por la muerte de la televisión, el estallido social, Trump y por sobre todo internet. La televisión siempre ocupó un lugar importante, no solo en mí, sino que en mi familia. Habitual era el hecho de reunirse en el living de mi casa a ver una película, o ver las noticias mientras tomábamos once. Debido a este fanatismo familiar hacia la pantalla empecé a enterarme de lo que pasaba en Chile y en el mundo, me extrañé cuando vi la Estación Trinidad quemándose en Santiago, o cuando supe de la muerte de George Floyd. Tales hechos me impactaron de tal manera que me hicieron cuestionarme el mundo y quienes lo componen, gracias a estas dudas aprendí sobre política."
-    }
-  ]
+  "essays": []
 }
