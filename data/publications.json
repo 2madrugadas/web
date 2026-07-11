@@ -1,12 +1,5 @@
 {
   "photos": [],
   "videos": [],
-  "essays": [
-    {
-      "id": "1783729761334",
-      "title": "Ejemplo",
-      "date": "2026-07-10",
-      "content": "Texto ejemplo."
-    }
-  ]
+  "essays": []
 }
